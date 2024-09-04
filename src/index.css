@@ -1,3 +1,15 @@
-:root {
-  background-color: #242424;
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.right {
+  float: right;
+  margin-left: 10px;
+}
+
+img.left {
+  float: left;
+  margin-right: 10px;
 }
