@@ -8,7 +8,7 @@ function TinyMCEEditor() {
   return (
     <div style={{ display: "flex", justifyContent: "center" }}>
       <Editor
-        apiKey="t2p3lab8aytlzwpjzjjqct8gqjmhzimt02yl0y8wpx2ywxq5"
+        apiKey={import.meta.env.VITE_TINYMCE_API_KEY}
         onEditorChange={handleEditorChange}
         init={{
           menubar: false,
