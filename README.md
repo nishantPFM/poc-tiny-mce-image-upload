@@ -17,7 +17,12 @@ To set up this project, follow these steps:
    npm install
    ```
 
-4. Run the project:
+4. Add `VITE_TINYMCE_API_KEY` in `.env` file:
+   ```sh
+   VITE_TINYMCE_API_KEY="your-api-key-here"
+   ```
+
+5. Run the project:
    ```sh
    npm run dev
    ```
